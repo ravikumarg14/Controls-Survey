@@ -53,6 +53,7 @@ with st.form("entry_form", clear_on_submit=True):
     
     projectName=st.text_input("Project Name:", key="projectName")
     demodate = st.date_input("Demonstration Date: ", key="demodate")
+    demodate = str(demodate)
     location=st.text_input("Location",key="location")
     attendeeName=st.text_input("Attendee Name",key="attendeeName")
     attendeetype = st.selectbox("Select Attendee Type:", attendeeTypes,key="attendeetype")
