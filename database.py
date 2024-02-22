@@ -10,7 +10,7 @@ DETA_KEY = "d0sas5umwhg_9N2kpDnHvw2jiWRg3XfddCniXjNCoan4"
 deta = Deta(DETA_KEY)
 
 # This is how to create/connect a database
-db = deta.Base("survey")
+db = deta.Base("controls_survey")
 
 
 def insert_period(projectName,demodate,location,attendeeName,attendeetype,demoType,expectation,likes,dislikes,satisfaction,recommendation):
