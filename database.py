@@ -3,7 +3,7 @@ from deta import Deta  # pip install deta
 
 
 # Load the environment variables
-DETA_KEY = "d0sas5umwhg_9N2kpDnHvw2jiWRg3XfddCniXjNCoan4"
+DETA_KEY = "d0schgojkle_xAiBm6aAX1aWEG5xpnz78HYW34SKzHYR"
 # st.secrets["DETA_KEY"]
 
 # Initialize with a project key
